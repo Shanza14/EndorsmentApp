@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+html, body {
+    
+    margin: 5px auto 5px;
+    padding: 0;
+    width: 390px;
+    padding: 50px auto 10px;
+    background: #1B1924;
+}
+  
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px auto none;
+}
+h1{ 
+    text-align: center;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+img{
+    width: 90px;
+    height: 90px;
+    align-self: center;    
+}
+textarea{
+     box-sizing: border-box;
+    text-align: justify;
+    text-anchor: start;
+    text-overflow: ellipsis;
+    align-items: middle;
+    margin: 9px auto;
+    width: 318px;
+    height: 118px;
+    background: #444059;
+    border-radius: 8px;
+    border: none;
+    padding: 12px 16px 12px 16px;
+}
+#btn-publish{
+    width: 317px;
+    height: 61px;
+    background-color: #28A9F1;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #04131C;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    margin: 9px auto;
+}
+p{
+    text-align: center;
+    width: 160px;
+    height: 20px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin: 9px auto;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 318px;
+    height: auto;
+    margin: 0px auto;
+    gap: 10px;
+}
+ul li{
+    flex-grow: 1;
+    text-align: justify;
+    background-color: #FFFDF8;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    padding: 12px 16px 12px 16px;
+    color: #1B1924;
+}
